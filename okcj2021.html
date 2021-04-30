@@ -11,9 +11,44 @@
         height: 800px;
       }
   </style>
+  <style>
+    .item-wrapper {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0.5em;
+        padding: 0.5em 0.5em 80px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+    }
+    .item-info-box {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .item-info {
+        display: inline-block;
+        background: #fff;
+        padding: 0 1em;
+    }
+</style>
 </head>
 <body>
-<div id="container">AR 아이콘을 캡쳐한 후 인스타그램에 해시태그와 함께 올려주시면 추첨을 통해 선물을 드립니다. 스타벅스 아이스 아메리카노 100명 해시태그 #청주공예비엔날레 #공생의도구 참여기간 7월 1일~7월 20일 까지<img src="images/All.gif" width="800" height="800"></div>
+  <div class="item-wrapper">
+    <div id="container">
+      <img src="images/All.gif" width="800" height="800">
+    </div>
+    <div class="item-info-box">
+    <div class="item-info">
+      <h3>청주공예비엔날래</h3>      
+    </div>
+  </div>
+  </div>
 <script>
   letsee.init();
   letsee.ready(() => {
