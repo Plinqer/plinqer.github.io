@@ -3,65 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>청주국제공예비엔날레 2021</title>
-  <script src="https://developer.letsee.io/api/webar?key=3d79ec07b5b86e335a4d88df1cdf202017467f73ee75c3af59b124259a0882b9"></script>
-  <style media="place" type="text/css">
-      #container {
-        -letsee-target: uri('okcj-marker.json');
-        width: 800px;
-        height: 800px;
-      }
-  </style>
-  <style>
-    .item-wrapper {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        position: relative;
-        margin: 0.5em;
-        padding: 0.5em 0.5em 80px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        background: #fff;
-    }
-    .item-info-box {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .item-info {
-        display: inline-block;
-        background: #fff;
-        padding: 0 1em;
-    }
-</style>
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"> 
+  <style> 
+    body {
+      font-family: 'Gugi', serif; 
+      font-size: 20px
+    } 
+    p { font-family: 'Gugi', sans-serif; } 
+    </style>
 </head>
 <body>
-  <div class="item-wrapper">
-    <div id="container">
-      <img src="images/All.gif" width="800" height="800">
-    </div>
-    <div class="item-info-box">
-    <div class="item-info">
-      <h3>청주공예비엔날래</h3>      
-    </div>
-  </div>
-  </div>
-<script>
-  letsee.init();
-  letsee.ready(() => {
-    letsee.start();
-  });
-  /*
-  letsee.onTrackMove(() => {
-    console.warn('move');
-  });
-  letsee.onTrackEnd(() => {
-    console.error('end');
-  });
-  */
-</script>
+  <div id="top">
+  <p style="text-align: center;">    
+청주국제공예비엔날레 공생의 도구 AR 아이콘 체험      
+  <a href="okcj2021_AR.html">
+  </p>
+    <p style="text-align: center;">    
+<img src="images/AR.png" style="max-height: 500px; max-width: 500px;" />
+</p>
+  </a>
+</div>
 </body>
 </html>
